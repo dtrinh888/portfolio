@@ -1,0 +1,122 @@
+body {
+  /* Typography Declarations */
+  color: #22222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 1em;
+    color: yellow;
+  }
+  .masthead-intro {
+    color: blue;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  footer {
+    padding: 3em 0;
+  }
+  .footer-content {
+    font-size: 1em;
+    color: yellow;
+  }
+}
+
+.masthead-intro, .masthead-heading, .footer-content {
+  text-align: center;
+}
+
+.masthead-intro, .masthead-heading {
+  color: white;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://40.media.tumblr.com/9f4cf7cee4fd02e741f09a7b0bcf22ad/tumblr_mvlod7iuZb1sdyj9lo1_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em white;
+}
+
+.masthead-intro {
+  /* layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Typography Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.intro, .locale, .questions, .projects{
+  max-width: 38em;
+  margin: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.questions > h2{
+  color: blue;
+}
+
+.social {
+  margin-right: 3em;
+}
+
+.social > li{
+  display: inline-block;
+}
+
+.intro > p, .locale > p, .footer-content > p, .questions > p{
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.questions > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+}
+
+.projects > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+  color: blue;
+}
+
+.projects > img {
+  width: 38em;
+}
+
+.footer-content {
+   background-color: gray;
+   height: 100%;
+   width: 100%;
+}
