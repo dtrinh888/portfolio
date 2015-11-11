@@ -6,6 +6,10 @@ body {
   background-color: white;
 }
 
+html, body {
+  margin: 0;
+  height: 100%
+}
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
@@ -29,6 +33,9 @@ body {
   }
 }
 
+.container {
+  width: 100%;
+}
 .content-container {
   margin: 0 auto;
   border: 1px solid red;  
@@ -53,7 +60,6 @@ body {
   background-image: url('http://40.media.tumblr.com/9f4cf7cee4fd02e741f09a7b0bcf22ad/tumblr_mvlod7iuZb1sdyj9lo1_1280.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em white;
 }
 
 .masthead-intro {
@@ -131,11 +137,10 @@ section > h1 {
 
 .projects-content {
   margin: 0 auto;
-  width: 80%
+  width: 63%
 }
 
 .projects {
-  padding: 10px 50px;
   float: left;
   border: 1px solid red;
   margin: 0 auto;
