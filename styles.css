@@ -29,6 +29,18 @@ body {
   }
 }
 
+.content-container {
+  margin: 0 auto;
+  border: 1px solid red;  
+}
+
+.personal-container{
+    width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
 .masthead-intro, .masthead-heading, .footer-content {
   text-align: center;
 }
@@ -63,7 +75,7 @@ body {
   text-transform: uppercase;
 }
 
-.intro, .locale, .questions, .projects{
+.intro, .locale, .questions,{
   max-width: 38em;
   margin: auto;
   margin-right: auto;
@@ -101,6 +113,27 @@ body {
 section > h1 {
   margin-top: 2em;
 }
+.projects-container{
+  border: 1px solid red;
+
+  overflow: hidden;
+}
+
+.projects-content {
+  margin: 0 auto;
+  width: 80%
+}
+
+.projects {
+  padding: 10px 50px;
+  float: left;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.right {
+  margin-left: 6%
+}
 
 .projects > h2 {
   font-family: "Gentium Book Basic", Georgia, serif;
@@ -112,7 +145,12 @@ section > h1 {
 }
 
 .projects > img {
-  width: 38em;
+  width: 550px;
+  height: 300px;
+}
+
+.clear {
+  clear: both;
 }
 
 .footer-content {
