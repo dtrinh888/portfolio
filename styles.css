@@ -117,6 +117,8 @@ section > h1 {
 .projects-container{
   border: 1px solid red;
   overflow: hidden;
+  background-image: url("img/portfolio.jpg");
+  background-size: 50%;
 }
 
 .project-title {
