@@ -113,10 +113,18 @@ body {
 section > h1 {
   margin-top: 2em;
 }
+
 .projects-container{
   border: 1px solid red;
-
   overflow: hidden;
+}
+
+.project-title {
+  background-color: red;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  color: black;
 }
 
 .projects-content {
