@@ -37,15 +37,13 @@ html, body {
   width: 100%;
 }
 .content-container {
-  margin: 0 auto;
-  border: 1px solid red;  
+  margin: 0 auto; 
 }
 
 .personal-container{
     width: 1000px;
     text-align: justify;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .masthead-intro, .masthead-heading, .footer-content {
@@ -57,7 +55,7 @@ html, body {
 }
 .masthead {
   padding: 6em 0;
-  background-image: url('http://40.media.tumblr.com/9f4cf7cee4fd02e741f09a7b0bcf22ad/tumblr_mvlod7iuZb1sdyj9lo1_1280.jpg');
+  background-image: url('img/losangeles.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -121,7 +119,6 @@ section > h1 {
 }
 
 .projects-container{
-  border: 1px solid red;
   overflow: hidden;
   background-image: url("img/portfolio.jpg");
   background-size: 50%;
@@ -142,7 +139,6 @@ section > h1 {
 
 .projects {
   float: left;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
