@@ -6,6 +6,10 @@ body {
   background-color: white;
 }
 
+html, body {
+  margin: 0;
+  height: 100%
+}
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
@@ -29,6 +33,56 @@ body {
   }
 }
 
+.container {
+  width: 100%;
+}
+.content-container {
+  margin: 0 auto; 
+}
+
+#personal-container{
+    width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+nav {
+  float: right;
+  display: block;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-bar h1 {
+  font-weight: 300;
+}
+
+.nav-container {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  padding-left: 2px;
+  position: fixed;
+}
+
+.nav-container a {
+  text-decoration: none;
+}
+
+.logo {
+  float: left;
+  font-size: 70%
+}
+
 .masthead-intro, .masthead-heading, .footer-content {
   text-align: center;
 }
@@ -38,10 +92,10 @@ body {
 }
 .masthead {
   padding: 6em 0;
-  background-image: url('http://40.media.tumblr.com/9f4cf7cee4fd02e741f09a7b0bcf22ad/tumblr_mvlod7iuZb1sdyj9lo1_1280.jpg');
+  background-image: url('img/losangeles.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: solid 1em white;
+  height: 600px;
 }
 
 .masthead-intro {
@@ -63,7 +117,7 @@ body {
   text-transform: uppercase;
 }
 
-.intro, .locale, .questions, .projects{
+.intro, .locale, .questions,{
   max-width: 38em;
   margin: auto;
   margin-right: auto;
@@ -102,6 +156,34 @@ section > h1 {
   margin-top: 2em;
 }
 
+.projects-container{
+  overflow: hidden;
+  background-image: url("img/portfolio.jpg");
+  background-size: 50%;
+}
+
+.project-title {
+  background-color: red;
+  text-align: center;
+  width: 180px;
+  margin: 0 auto;
+  color: black;
+}
+
+.projects-content {
+  margin: 0 auto;
+  width: 63%
+}
+
+.projects {
+  float: left;
+  margin: 0 auto;
+}
+
+.right {
+  margin-left: 6%
+}
+
 .projects > h2 {
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 1.2em;
@@ -112,7 +194,12 @@ section > h1 {
 }
 
 .projects > img {
-  width: 38em;
+  width: 550px;
+  height: 300px;
+}
+
+.clear {
+  clear: both;
 }
 
 .footer-content {
