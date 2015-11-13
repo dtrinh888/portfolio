@@ -40,10 +40,47 @@ html, body {
   margin: 0 auto; 
 }
 
-.personal-container{
+#personal-container{
     width: 1000px;
     text-align: justify;
     margin: 0 auto;
+}
+
+nav {
+  float: right;
+  display: block;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-bar h1 {
+  font-weight: 300;
+}
+
+.nav-container {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  padding-left: 2px;
+  position: fixed;
+}
+
+.nav-container a {
+  text-decoration: none;
+}
+
+.logo {
+  float: left;
+  font-size: 70%
 }
 
 .masthead-intro, .masthead-heading, .footer-content {
@@ -58,6 +95,7 @@ html, body {
   background-image: url('img/losangeles.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 600px;
 }
 
 .masthead-intro {
