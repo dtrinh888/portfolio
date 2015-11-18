@@ -76,6 +76,7 @@ nav li {
   padding-left: 2px;
   position: fixed;
   box-shadow: 0 2px 3px gray;
+  z-index: 9999;
 }
 
 .nav-container a {
