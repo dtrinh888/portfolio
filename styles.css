@@ -25,7 +25,7 @@ html, body {
 
 @media only screen and (max-width: 500px) {
   footer {
-    padding: 3em 0;
+    padding: 2em 0;
   }
   .footer-content {
     font-size: 1em;
@@ -38,12 +38,14 @@ html, body {
 }
 .content-container {
   margin: 0 auto; 
+  background-color: #2C3F50;
 }
 
 #personal-container{
     width: 1000px;
     text-align: justify;
     margin: 0 auto;
+    color: white;
 }
 
 nav {
@@ -89,7 +91,11 @@ nav li {
   color: #667AB7
 }
 
-.masthead-intro, .masthead-heading, .footer-content {
+.masthead-container{
+  height: 950px;
+}
+
+.masthead-intro, .masthead-heading{
   text-align: center;
 }
 
@@ -101,7 +107,8 @@ nav li {
   background-image: url('img/los-angeles.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  display: block;
+  height: 100%;
 }
 
 .circle {
@@ -181,7 +188,7 @@ section > h1 {
 
 .projects-container{
   overflow: hidden;
-  background-image: url("img/portfolio.jpg");
+  background-color: white;
   background-size: 50%;
 }
 
@@ -229,7 +236,6 @@ section > h1 {
 
 .col-xs-12, .col-md-4{
   margin-bottom: 30px;
-
 }
 
 .clear {
@@ -237,7 +243,13 @@ section > h1 {
 }
 
 .footer-content {
-   background-color: gray;
+   background-color: #111111;
    height: 100%;
    width: 100%;
+   color: white;
+}
+
+.contact {
+  width: 500px;
+  margin: 0 auto;
 }
