@@ -1,26 +1,23 @@
 $(function(){
-	function goToByScroll(id){
-		id = id.replace("link", "");
-		$('html, body').animate({
-			scrollTop: $("#"+id).offset().top
-		}, 'slow');
-	}
 
-	$('#nav-arrow > ul > li > a').click(function(e){
+	$('#header-nav > ul > li > a, .nav-arrow').click(function(e){
 		e.preventDefault();
-		goToByScroll($(this).attr('id'));
+		var section;
+		
+		if($(this).attr('href')){
+			section = $(this).attr('href');
+		} else {
+			section = $(this).closest('a').attr('href');
+		}
+
+		if($('header').css('display') === 'none'){
+			$('html, body').animate({
+				scrollTop: parseInt($(section).position().top)
+			}, 1000);
+		} else {
+			$('html, body').animate({
+				scrollTop: parseInt($(section).position().top) - 50
+			}, 1000);
+		}
 	});
-
-	var portfolio = function(p, pA){
-		var $portfolio = this;
-		$portfolio.p = project;
-		$portfolio.pA = projectArea;
-		$portfolio.currentProject = 0;
-
-		$portfolio.displayProject = function(){
-			if($portfolio.currentProject < 0 || $portfolio.currentProject >= $portfolio.projects.length) {
-				return false;
-			}
-		}; 
-	};
 });
