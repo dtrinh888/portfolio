@@ -186,7 +186,7 @@ section > h1 {
 }
 
 .projects-container li{
-  padding-top: 50px; 
+  padding: 20px 0px; 
 /*  overflow: hidden;
   background-color: white;
   background-size: 50%;*/
@@ -213,7 +213,7 @@ section > h1 {
 .row img{
   height: 100%;
   width: 100%;
-  margin: -10px
+  /*margin: -10px*/
 }
 
 .col-xs-12, .col-md-4{
