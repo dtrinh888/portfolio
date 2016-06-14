@@ -38,10 +38,16 @@ html, body {
   background-color: #2C3F50;
 }
 
-#personal-container{
+.personal-container{
     text-align: justify;
     margin: 0 auto;
     color: white;
+}
+
+.headshot{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
 }
 
 ul {
@@ -184,6 +190,12 @@ section > h1 {
   color: #667AB7;
 }
 
+@media only screen and (max-width: 500px;){
+  .overview p{
+    visibility: hidden;
+  }
+}
+
 .row a:hover{
   text-decoration: none;
 }
@@ -212,5 +224,5 @@ section > h1 {
 }
 
 .footer-content li{
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
