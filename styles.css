@@ -44,10 +44,9 @@ html, body {
     color: white;
 }
 
-.headshot{
+.headshot img{
   width: 250px;
   height: 250px;
-  margin: 0 auto;
 }
 
 ul {
@@ -172,14 +171,10 @@ section > h1 {
 
 .projects-container{
   padding: 20px 0px; 
-/*  overflow: hidden;
-  background-color: white;
-  background-size: 50%;*/
 }
 
 .project-title {
   width: 180px;
-  /*margin: 0 auto;*/
   color: black;
 }
 
@@ -198,13 +193,6 @@ section > h1 {
 
 .row a:hover{
   text-decoration: none;
-}
-
-
-.row img{
-  height: 100%;
-  width: 100%;
-  /*margin: -10px*/
 }
 
 .col-xs-12, .col-md-4{
