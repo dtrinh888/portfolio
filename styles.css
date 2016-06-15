@@ -185,10 +185,12 @@ section > h1 {
   color: #667AB7;
 }
 
-@media only screen and (max-width: 500px;){
-  .overview p{
-    visibility: hidden;
-  }
+.technologies > li, .views > li{
+  display: inline;
+}
+
+.views{
+  padding-top: 10px;
 }
 
 .row a:hover{
