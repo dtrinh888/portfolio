@@ -180,12 +180,12 @@ section > h1 {
   color: #667AB7;
 }
 
-@media only screen and (min-width: 1140px){
+/*@media only screen and (min-width: 1140px){
   .project-img img:hover {
     background-color: black;
     opacity: .5;
   }
-}
+}*/
 
 .technologies > li, .views > li{
   display: inline;
