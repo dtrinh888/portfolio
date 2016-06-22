@@ -39,9 +39,9 @@ html, body {
 }
 
 .personal-container{
-    text-align: justify;
-    margin: 0 auto;
-    color: white;
+  text-align: justify;
+  margin: 0 auto;
+  color: white;
 }
 
 .headshot img{
@@ -163,10 +163,6 @@ ul {
   font-weight: bold;
   /* Layout */
   margin: 2em 0 1em 0;
-}
-
-section > h1 {
-  margin-top: 
 }
 
 .projects-container{
