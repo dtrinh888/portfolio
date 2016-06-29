@@ -195,6 +195,10 @@ ul {
   clear: both;
 }
 
+.footer-icon{
+  color: white;
+}
+
 .footer-content {
    background-color: #2C3F50;
    height: 100%;
